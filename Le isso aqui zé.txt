@@ -1,0 +1,19 @@
+1 - baixa o node (de preferencia a versao 16)
+
+ttps://nodejs.dev/pt/download/ 
+
+2 - dentro do terminal do vs code ou no cmd dentro do diretorio certo, escreve o seguinte:
+
+npm install express
+npm install axios
+npm install cors
+
+3 - ainda no terminal do vs code, escreve npm start, ou usa o a extensão do live server
+caso use o npm start, abre o arquivo html
+
+4 - os arquivos q vc vai usar são o index.html, index.js e db.json (era pra estar melhor organizado)
+
+5 - sua missão inicialmente é mt simples, se vai enviar esse form (ou se quiser fzr outro form, a vontade) pro arquivo json q ta aí
+ja tem uma funcao q faz isso, a "updateData()" soq se vai trocar os valores do array "newPerson" pelos dados do form
+qlqr duvida aí, so mandar msg
+esse arquivo json é o db.json dentro de data ai no projeto, toda vez q a função updateData for chamada, vai adicionar um novo objeto, ai se ficar gigante, o arquivo, so apagar manualmente aí kkkkkkkkkkk
